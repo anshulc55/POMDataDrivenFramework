@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Functional Test Suite">
+
+<!-- If add more test cases In this suite, You need to add them as bellow. -->
+
+<test name="LoginPageTest">
+    <classes>
+        <class name="com.SBIXDDF.TestCases.LoginTest" ></class>   
+    </classes>
+</test>
+
+<test name="WelcomePageTest">
+    <classes>
+        <class name="com.SBIXDDF.TestCases.WelcomeTest" ></class>  
+    </classes>
+</test>
+
+</suite>

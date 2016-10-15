@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumBix DDF Sample" duration-ms="0" started-at="2016-10-09T08:09:56Z" finished-at="2016-10-09T08:09:56Z">
+    <groups>
+    </groups>
+  </suite> <!-- SeleniumBix DDF Sample -->
+  <suite name="Functional Test Suite" duration-ms="113709" started-at="2016-10-09T08:08:02Z" finished-at="2016-10-09T08:09:56Z">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="48061" started-at="2016-10-09T08:08:02Z" finished-at="2016-10-09T08:08:51Z">
+      <class name="com.SBIXDDF.TestCases.LoginTest">
+        <test-method status="PASS" signature="invalidloginTest(java.util.HashMap)[pri:0, instance:com.SBIXDDF.TestCases.LoginTest@6e3c1e69]" name="invalidloginTest" duration-ms="13881" started-at="2016-10-09T13:38:03Z" data-provider="getInvalidLoginData" finished-at="2016-10-09T13:38:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, UserName=yuvikasharmaopages.com, PageTitle=Oyepages - Login Site, Password=yuvikasharma}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginTest -->
+        <test-method status="PASS" signature="invalidloginTest(java.util.HashMap)[pri:0, instance:com.SBIXDDF.TestCases.LoginTest@6e3c1e69]" name="invalidloginTest" duration-ms="5752" started-at="2016-10-09T13:38:17Z" data-provider="getInvalidLoginData" finished-at="2016-10-09T13:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, UserName=yuvikasharma@opagescom, PageTitle=Oyepages - Login Site, Password=yuvikasharma}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginTest -->
+        <test-method status="PASS" signature="invalidloginTest(java.util.HashMap)[pri:0, instance:com.SBIXDDF.TestCases.LoginTest@6e3c1e69]" name="invalidloginTest" duration-ms="6191" started-at="2016-10-09T13:38:23Z" data-provider="getInvalidLoginData" finished-at="2016-10-09T13:38:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, UserName=yuvikasharma@opages, PageTitle=Oyepages - Login Site, Password=yuvikasharma}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginTest -->
+        <test-method status="PASS" signature="invalidloginTest(java.util.HashMap)[pri:0, instance:com.SBIXDDF.TestCases.LoginTest@6e3c1e69]" name="invalidloginTest" duration-ms="4378" started-at="2016-10-09T13:38:30Z" data-provider="getInvalidLoginData" finished-at="2016-10-09T13:38:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, UserName=yuvikasharma@opages.com, PageTitle=Oyepages - Login Site, Password=yuvikasharm}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidloginTest -->
+        <test-method status="PASS" signature="loginTest(java.util.HashMap)[pri:0, instance:com.SBIXDDF.TestCases.LoginTest@6e3c1e69]" name="loginTest" duration-ms="16173" started-at="2016-10-09T13:38:34Z" data-provider="getLoginData" finished-at="2016-10-09T13:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{=, UserName=yuvikasharma@opages.com, PageTitle=Oye Welcome!, Password=yuvikasharma}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.SBIXDDF.TestCases.LoginTest -->
+    </test> <!-- LoginPageTest -->
+    <test name="WelcomePageTest" duration-ms="65632" started-at="2016-10-09T08:08:51Z" finished-at="2016-10-09T08:09:56Z">
+      <class name="com.SBIXDDF.TestCases.WelcomeTest">
+        <test-method status="PASS" signature="verifyHeaderLinksIsPresent()[pri:0, instance:com.SBIXDDF.TestCases.WelcomeTest@5a39699c]" name="verifyHeaderLinksIsPresent" duration-ms="65419" started-at="2016-10-09T13:38:51Z" finished-at="2016-10-09T13:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderLinksIsPresent -->
+      </class> <!-- com.SBIXDDF.TestCases.WelcomeTest -->
+    </test> <!-- WelcomePageTest -->
+  </suite> <!-- Functional Test Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Test Suite]">
+  <test name="HomePageTest(failed)">
+    <classes>
+      <class name="com.SBIXDDF.TestCases.WelcomeTest">
+        <methods>
+          <include name="verifyHeaderLinksIsPresent"/>
+        </methods>
+      </class> <!-- com.SBIXDDF.TestCases.WelcomeTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Functional Test Suite] -->

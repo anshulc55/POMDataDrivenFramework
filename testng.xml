@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SeleniumBix DDF Sample">
+    
+    <listeners> 
+		<listener class-name="com.SBIXDDF.Util.CaptureScreenshotUtil"></listener> 
+ 	</listeners>
+
+	<suite-files>
+<!-- If you have more test suites, Please add them bellow. -->
+   		<suite-file path="./Functional.xml" />
+   		<!-- <suite-file path="./SuiteTwo.xml" /> -->
+   
+  </suite-files>
+  
+ </suite>
